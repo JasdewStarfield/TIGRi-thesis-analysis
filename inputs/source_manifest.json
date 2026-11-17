@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "data_root": "Directory containing the original data/ tree",
+  "files": [
+    {
+      "audit_index": 0,
+      "acquisition": "12 May: baseline repression",
+      "path": "data/20260512/20260515.xlsx",
+      "sha256": "efc783b39df17a3ee53919a5467662a6cb726d967d9e5a0705ac2b239fe17f78"
+    },
+    {
+      "audit_index": 2,
+      "acquisition": "29 May: native and BoxB configurations",
+      "path": "data/20260529/Reader-20260529.xlsx",
+      "sha256": "ea261937f258cdcc95ad2d484beffcb6a37970b7915c67e4ea3edafcaad394ca"
+    },
+    {
+      "audit_index": 3,
+      "acquisition": "8 June: TadA8e fusion batch 1",
+      "path": "data/20260608/20260609.xlsx",
+      "sha256": "08bb9383f149b634c1e31684e3a6759a088e53095fe7e8391a120932b260105a"
+    },
+    {
+      "audit_index": 4,
+      "acquisition": "11 June: TadA8e fusion batch 2",
+      "path": "data/20260612/Book1.xlsx",
+      "sha256": "560d7da09bfb56f266bedeeb135235b9cdec6c936f67f1fd6928ccfb75c62563"
+    },
+    {
+      "audit_index": 9,
+      "acquisition": "21 July: matched-site repression",
+      "path": "data/20260723/CRISPRi-20260722.xlsx",
+      "sha256": "c2de997151a7fc7d2f6a99953f74af0de5517015f84d62b09bbbd9d55e7582a4"
+    },
+    {
+      "audit_index": 11,
+      "acquisition": "1 August: non-targeting guides",
+      "path": "data/20260802-ai/CRISPRI-20260802-NEW.xlsx",
+      "sha256": "72840cb3b1073a4942d8327d1bf902ca702f4587f58cd70a9a253f1320aba81a"
+    }
+  ]
+}

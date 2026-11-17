@@ -1,0 +1,4 @@
+# Generated Python caches and optional local outputs are not submission sources.
+__pycache__/
+*.pyc
+results/

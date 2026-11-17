@@ -1,0 +1,3403 @@
+{
+  "schema_version": 1,
+  "plates": [
+    {
+      "audit_index": 0,
+      "endpoint_h": 10,
+      "groups": [
+        {
+          "name": "1B",
+          "wells": {
+            "N": [
+              "A1",
+              "B1",
+              "C1"
+            ],
+            "P": [
+              "D1",
+              "E1",
+              "F1"
+            ]
+          },
+          "expected_means": {
+            "N": 10339.008,
+            "P": 1466.306
+          }
+        },
+        {
+          "name": "2A",
+          "wells": {
+            "N": [
+              "A2",
+              "B2",
+              "C2"
+            ],
+            "P": [
+              "D2",
+              "E2",
+              "F2"
+            ]
+          },
+          "expected_means": {
+            "N": 13637.568,
+            "P": 1111.117
+          }
+        },
+        {
+          "name": "2B",
+          "wells": {
+            "N": [
+              "A3",
+              "B3",
+              "C3"
+            ],
+            "P": [
+              "D3",
+              "E3",
+              "F3"
+            ]
+          },
+          "expected_means": {
+            "N": 14425.91,
+            "P": 1157.088
+          }
+        },
+        {
+          "name": "3A",
+          "wells": {
+            "N": [
+              "A4",
+              "B4",
+              "C4"
+            ],
+            "P": [
+              "D4",
+              "E4",
+              "F4"
+            ]
+          },
+          "expected_means": {
+            "N": 12556.126,
+            "P": 1767.809
+          }
+        },
+        {
+          "name": "3B",
+          "wells": {
+            "N": [
+              "A5",
+              "B5",
+              "C5"
+            ],
+            "P": [
+              "D5",
+              "E5",
+              "F5"
+            ]
+          },
+          "expected_means": {
+            "N": 9904.398,
+            "P": 1066.577
+          }
+        },
+        {
+          "name": "4A",
+          "wells": {
+            "N": [
+              "A6",
+              "B6",
+              "C6"
+            ],
+            "P": [
+              "D6",
+              "E6",
+              "F6"
+            ]
+          },
+          "expected_means": {
+            "N": 12536.898,
+            "P": 7129.214
+          }
+        },
+        {
+          "name": "4B",
+          "wells": {
+            "N": [
+              "A7",
+              "B7",
+              "C7"
+            ],
+            "P": [
+              "D7",
+              "E7",
+              "F7"
+            ]
+          },
+          "expected_means": {
+            "N": 9532.764,
+            "P": 5193.265
+          }
+        },
+        {
+          "name": "5A",
+          "wells": {
+            "N": [
+              "A8",
+              "B8",
+              "C8"
+            ],
+            "P": [
+              "D8",
+              "E8",
+              "F8"
+            ]
+          },
+          "expected_means": {
+            "N": 13629.219,
+            "P": 8242.505
+          }
+        },
+        {
+          "name": "5B",
+          "wells": {
+            "N": [
+              "A9",
+              "B9",
+              "C9"
+            ],
+            "P": [
+              "D9",
+              "E9",
+              "F9"
+            ]
+          },
+          "expected_means": {
+            "N": 15195.198,
+            "P": 8652.234
+          }
+        },
+        {
+          "name": "6A",
+          "wells": {
+            "N": [
+              "A10",
+              "B10",
+              "C10"
+            ],
+            "P": [
+              "D10",
+              "E10",
+              "F10"
+            ]
+          },
+          "expected_means": {
+            "N": 14664.573,
+            "P": 10714.984
+          }
+        },
+        {
+          "name": "6B",
+          "wells": {
+            "N": [
+              "A11",
+              "B11",
+              "C11"
+            ],
+            "P": [
+              "D11",
+              "E11",
+              "F11"
+            ]
+          },
+          "expected_means": {
+            "N": 14759.655,
+            "P": 10301.796
+          }
+        }
+      ],
+      "reference_wells": [
+        {
+          "well": "A1",
+          "group": "1B",
+          "condition": "N",
+          "od600": 1.45,
+          "fluorescence": 14876.0,
+          "normalized_rounded": 10259.31
+        },
+        {
+          "well": "B1",
+          "group": "1B",
+          "condition": "N",
+          "od600": 1.462,
+          "fluorescence": 15521.0,
+          "normalized_rounded": 10616.279
+        },
+        {
+          "well": "C1",
+          "group": "1B",
+          "condition": "N",
+          "od600": 1.407,
+          "fluorescence": 14269.0,
+          "normalized_rounded": 10141.436
+        },
+        {
+          "well": "D1",
+          "group": "1B",
+          "condition": "P",
+          "od600": 1.325,
+          "fluorescence": 1966.0,
+          "normalized_rounded": 1483.774
+        },
+        {
+          "well": "E1",
+          "group": "1B",
+          "condition": "P",
+          "od600": 1.278,
+          "fluorescence": 1855.0,
+          "normalized_rounded": 1451.487
+        },
+        {
+          "well": "F1",
+          "group": "1B",
+          "condition": "P",
+          "od600": 1.197,
+          "fluorescence": 1752.0,
+          "normalized_rounded": 1463.659
+        },
+        {
+          "well": "A2",
+          "group": "2A",
+          "condition": "N",
+          "od600": 1.353,
+          "fluorescence": 17395.0,
+          "normalized_rounded": 12856.615
+        },
+        {
+          "well": "B2",
+          "group": "2A",
+          "condition": "N",
+          "od600": 1.421,
+          "fluorescence": 20906.0,
+          "normalized_rounded": 14712.175
+        },
+        {
+          "well": "C2",
+          "group": "2A",
+          "condition": "N",
+          "od600": 1.323,
+          "fluorescence": 17654.0,
+          "normalized_rounded": 13343.915
+        },
+        {
+          "well": "D2",
+          "group": "2A",
+          "condition": "P",
+          "od600": 1.325,
+          "fluorescence": 1353.0,
+          "normalized_rounded": 1021.132
+        },
+        {
+          "well": "E2",
+          "group": "2A",
+          "condition": "P",
+          "od600": 1.334,
+          "fluorescence": 1435.0,
+          "normalized_rounded": 1075.712
+        },
+        {
+          "well": "F2",
+          "group": "2A",
+          "condition": "P",
+          "od600": 1.26,
+          "fluorescence": 1558.0,
+          "normalized_rounded": 1236.508
+        },
+        {
+          "well": "A3",
+          "group": "2B",
+          "condition": "N",
+          "od600": 1.458,
+          "fluorescence": 21527.0,
+          "normalized_rounded": 14764.746
+        },
+        {
+          "well": "B3",
+          "group": "2B",
+          "condition": "N",
+          "od600": 1.521,
+          "fluorescence": 22922.0,
+          "normalized_rounded": 15070.348
+        },
+        {
+          "well": "C3",
+          "group": "2B",
+          "condition": "N",
+          "od600": 1.473,
+          "fluorescence": 19801.0,
+          "normalized_rounded": 13442.634
+        },
+        {
+          "well": "D3",
+          "group": "2B",
+          "condition": "P",
+          "od600": 1.439,
+          "fluorescence": 1748.0,
+          "normalized_rounded": 1214.732
+        },
+        {
+          "well": "E3",
+          "group": "2B",
+          "condition": "P",
+          "od600": 1.455,
+          "fluorescence": 1772.0,
+          "normalized_rounded": 1217.869
+        },
+        {
+          "well": "F3",
+          "group": "2B",
+          "condition": "P",
+          "od600": 1.345,
+          "fluorescence": 1397.0,
+          "normalized_rounded": 1038.662
+        },
+        {
+          "well": "A4",
+          "group": "3A",
+          "condition": "N",
+          "od600": 1.561,
+          "fluorescence": 19919.0,
+          "normalized_rounded": 12760.41
+        },
+        {
+          "well": "B4",
+          "group": "3A",
+          "condition": "N",
+          "od600": 1.456,
+          "fluorescence": 17754.0,
+          "normalized_rounded": 12193.681
+        },
+        {
+          "well": "C4",
+          "group": "3A",
+          "condition": "N",
+          "od600": 1.519,
+          "fluorescence": 19313.0,
+          "normalized_rounded": 12714.286
+        },
+        {
+          "well": "D4",
+          "group": "3A",
+          "condition": "P",
+          "od600": 1.294,
+          "fluorescence": 1912.0,
+          "normalized_rounded": 1477.589
+        },
+        {
+          "well": "E4",
+          "group": "3A",
+          "condition": "P",
+          "od600": 1.485,
+          "fluorescence": 2917.0,
+          "normalized_rounded": 1964.31
+        },
+        {
+          "well": "F4",
+          "group": "3A",
+          "condition": "P",
+          "od600": 1.401,
+          "fluorescence": 2608.0,
+          "normalized_rounded": 1861.527
+        },
+        {
+          "well": "A5",
+          "group": "3B",
+          "condition": "N",
+          "od600": 1.444,
+          "fluorescence": 14227.0,
+          "normalized_rounded": 9852.493
+        },
+        {
+          "well": "B5",
+          "group": "3B",
+          "condition": "N",
+          "od600": 1.504,
+          "fluorescence": 14690.0,
+          "normalized_rounded": 9767.287
+        },
+        {
+          "well": "C5",
+          "group": "3B",
+          "condition": "N",
+          "od600": 1.488,
+          "fluorescence": 15019.0,
+          "normalized_rounded": 10093.414
+        },
+        {
+          "well": "D5",
+          "group": "3B",
+          "condition": "P",
+          "od600": 1.354,
+          "fluorescence": 1628.0,
+          "normalized_rounded": 1202.363
+        },
+        {
+          "well": "E5",
+          "group": "3B",
+          "condition": "P",
+          "od600": 1.253,
+          "fluorescence": 1245.0,
+          "normalized_rounded": 993.615
+        },
+        {
+          "well": "F5",
+          "group": "3B",
+          "condition": "P",
+          "od600": 1.332,
+          "fluorescence": 1337.0,
+          "normalized_rounded": 1003.754
+        },
+        {
+          "well": "A6",
+          "group": "4A",
+          "condition": "N",
+          "od600": 1.455,
+          "fluorescence": 19529.0,
+          "normalized_rounded": 13421.993
+        },
+        {
+          "well": "B6",
+          "group": "4A",
+          "condition": "N",
+          "od600": 1.331,
+          "fluorescence": 16180.0,
+          "normalized_rounded": 12156.273
+        },
+        {
+          "well": "C6",
+          "group": "4A",
+          "condition": "N",
+          "od600": 1.326,
+          "fluorescence": 15955.0,
+          "normalized_rounded": 12032.428
+        },
+        {
+          "well": "D6",
+          "group": "4A",
+          "condition": "P",
+          "od600": 1.31,
+          "fluorescence": 9446.0,
+          "normalized_rounded": 7210.687
+        },
+        {
+          "well": "E6",
+          "group": "4A",
+          "condition": "P",
+          "od600": 1.368,
+          "fluorescence": 10017.0,
+          "normalized_rounded": 7322.368
+        },
+        {
+          "well": "F6",
+          "group": "4A",
+          "condition": "P",
+          "od600": 1.341,
+          "fluorescence": 9192.0,
+          "normalized_rounded": 6854.586
+        },
+        {
+          "well": "A7",
+          "group": "4B",
+          "condition": "N",
+          "od600": 1.433,
+          "fluorescence": 13228.0,
+          "normalized_rounded": 9230.984
+        },
+        {
+          "well": "B7",
+          "group": "4B",
+          "condition": "N",
+          "od600": 1.431,
+          "fluorescence": 14060.0,
+          "normalized_rounded": 9825.297
+        },
+        {
+          "well": "C7",
+          "group": "4B",
+          "condition": "N",
+          "od600": 1.452,
+          "fluorescence": 13855.0,
+          "normalized_rounded": 9542.011
+        },
+        {
+          "well": "D7",
+          "group": "4B",
+          "condition": "P",
+          "od600": 1.157,
+          "fluorescence": 5935.0,
+          "normalized_rounded": 5129.646
+        },
+        {
+          "well": "E7",
+          "group": "4B",
+          "condition": "P",
+          "od600": 1.213,
+          "fluorescence": 6042.0,
+          "normalized_rounded": 4981.039
+        },
+        {
+          "well": "F7",
+          "group": "4B",
+          "condition": "P",
+          "od600": 1.036,
+          "fluorescence": 5666.0,
+          "normalized_rounded": 5469.112
+        },
+        {
+          "well": "A8",
+          "group": "5A",
+          "condition": "N",
+          "od600": 1.472,
+          "fluorescence": 21103.0,
+          "normalized_rounded": 14336.277
+        },
+        {
+          "well": "B8",
+          "group": "5A",
+          "condition": "N",
+          "od600": 1.492,
+          "fluorescence": 20052.0,
+          "normalized_rounded": 13439.678
+        },
+        {
+          "well": "C8",
+          "group": "5A",
+          "condition": "N",
+          "od600": 1.504,
+          "fluorescence": 19720.0,
+          "normalized_rounded": 13111.702
+        },
+        {
+          "well": "D8",
+          "group": "5A",
+          "condition": "P",
+          "od600": 1.359,
+          "fluorescence": 10893.0,
+          "normalized_rounded": 8015.453
+        },
+        {
+          "well": "E8",
+          "group": "5A",
+          "condition": "P",
+          "od600": 1.053,
+          "fluorescence": 8899.0,
+          "normalized_rounded": 8451.092
+        },
+        {
+          "well": "F8",
+          "group": "5A",
+          "condition": "P",
+          "od600": 1.276,
+          "fluorescence": 10541.0,
+          "normalized_rounded": 8260.972
+        },
+        {
+          "well": "A9",
+          "group": "5B",
+          "condition": "N",
+          "od600": 1.521,
+          "fluorescence": 23674.0,
+          "normalized_rounded": 15564.76
+        },
+        {
+          "well": "B9",
+          "group": "5B",
+          "condition": "N",
+          "od600": 1.491,
+          "fluorescence": 21604.0,
+          "normalized_rounded": 14489.604
+        },
+        {
+          "well": "C9",
+          "group": "5B",
+          "condition": "N",
+          "od600": 1.489,
+          "fluorescence": 23126.0,
+          "normalized_rounded": 15531.229
+        },
+        {
+          "well": "D9",
+          "group": "5B",
+          "condition": "P",
+          "od600": 1.369,
+          "fluorescence": 12471.0,
+          "normalized_rounded": 9109.569
+        },
+        {
+          "well": "E9",
+          "group": "5B",
+          "condition": "P",
+          "od600": 1.245,
+          "fluorescence": 10185.0,
+          "normalized_rounded": 8180.723
+        },
+        {
+          "well": "F9",
+          "group": "5B",
+          "condition": "P",
+          "od600": 1.295,
+          "fluorescence": 11223.0,
+          "normalized_rounded": 8666.409
+        },
+        {
+          "well": "A10",
+          "group": "6A",
+          "condition": "N",
+          "od600": 1.339,
+          "fluorescence": 19801.0,
+          "normalized_rounded": 14787.901
+        },
+        {
+          "well": "B10",
+          "group": "6A",
+          "condition": "N",
+          "od600": 1.451,
+          "fluorescence": 20149.0,
+          "normalized_rounded": 13886.285
+        },
+        {
+          "well": "C10",
+          "group": "6A",
+          "condition": "N",
+          "od600": 1.28,
+          "fluorescence": 19609.0,
+          "normalized_rounded": 15319.531
+        },
+        {
+          "well": "D10",
+          "group": "6A",
+          "condition": "P",
+          "od600": 0.989,
+          "fluorescence": 10379.0,
+          "normalized_rounded": 10494.439
+        },
+        {
+          "well": "E10",
+          "group": "6A",
+          "condition": "P",
+          "od600": 1.198,
+          "fluorescence": 11745.0,
+          "normalized_rounded": 9803.84
+        },
+        {
+          "well": "F10",
+          "group": "6A",
+          "condition": "P",
+          "od600": 0.887,
+          "fluorescence": 10508.0,
+          "normalized_rounded": 11846.674
+        },
+        {
+          "well": "A11",
+          "group": "6B",
+          "condition": "N",
+          "od600": 1.388,
+          "fluorescence": 20774.0,
+          "normalized_rounded": 14966.859
+        },
+        {
+          "well": "B11",
+          "group": "6B",
+          "condition": "N",
+          "od600": 1.461,
+          "fluorescence": 20955.0,
+          "normalized_rounded": 14342.916
+        },
+        {
+          "well": "C11",
+          "group": "6B",
+          "condition": "N",
+          "od600": 1.493,
+          "fluorescence": 22349.0,
+          "normalized_rounded": 14969.19
+        },
+        {
+          "well": "D11",
+          "group": "6B",
+          "condition": "P",
+          "od600": 1.316,
+          "fluorescence": 13039.0,
+          "normalized_rounded": 9908.055
+        },
+        {
+          "well": "E11",
+          "group": "6B",
+          "condition": "P",
+          "od600": 1.251,
+          "fluorescence": 12896.0,
+          "normalized_rounded": 10308.553
+        },
+        {
+          "well": "F11",
+          "group": "6B",
+          "condition": "P",
+          "od600": 1.221,
+          "fluorescence": 13051.0,
+          "normalized_rounded": 10688.78
+        }
+      ]
+    },
+    {
+      "audit_index": 2,
+      "endpoint_h": 10,
+      "groups": [
+        {
+          "name": "native 1B",
+          "wells": {
+            "N": [
+              "A1",
+              "A2",
+              "A3"
+            ],
+            "P": [
+              "D1",
+              "D2",
+              "D3"
+            ]
+          },
+          "expected_means": {
+            "N": 14272.973,
+            "P": 2047.845
+          }
+        },
+        {
+          "name": "native 2A",
+          "wells": {
+            "N": [
+              "B1",
+              "B2",
+              "B3"
+            ],
+            "P": [
+              "E1",
+              "E2",
+              "E3"
+            ]
+          },
+          "expected_means": {
+            "N": 12549.442,
+            "P": 1409.196
+          }
+        },
+        {
+          "name": "native 3A",
+          "wells": {
+            "N": [
+              "C1",
+              "C2",
+              "C3"
+            ],
+            "P": [
+              "F1",
+              "F2",
+              "F3"
+            ]
+          },
+          "expected_means": {
+            "N": 9666.618,
+            "P": 1583.44
+          }
+        },
+        {
+          "name": "BoxB 2A",
+          "wells": {
+            "N": [
+              "A4",
+              "A5",
+              "A6"
+            ],
+            "P": [
+              "D4",
+              "D5",
+              "D6"
+            ]
+          },
+          "expected_means": {
+            "N": 19120.759,
+            "P": 11894.717
+          }
+        },
+        {
+          "name": "BoxB 3A",
+          "wells": {
+            "N": [
+              "B4",
+              "B5",
+              "B6"
+            ],
+            "P": [
+              "E4",
+              "E5",
+              "E6"
+            ]
+          },
+          "expected_means": {
+            "N": 16279.561,
+            "P": 5795.39
+          }
+        }
+      ],
+      "reference_wells": [
+        {
+          "well": "A1",
+          "group": "native 1B",
+          "condition": "N",
+          "od600": 1.589,
+          "fluorescence": 25585.0,
+          "normalized_rounded": 16101.322
+        },
+        {
+          "well": "A2",
+          "group": "native 1B",
+          "condition": "N",
+          "od600": 1.583,
+          "fluorescence": 23560.0,
+          "normalized_rounded": 14883.133
+        },
+        {
+          "well": "A3",
+          "group": "native 1B",
+          "condition": "N",
+          "od600": 1.474,
+          "fluorescence": 17444.0,
+          "normalized_rounded": 11834.464
+        },
+        {
+          "well": "D1",
+          "group": "native 1B",
+          "condition": "P",
+          "od600": 1.439,
+          "fluorescence": 3257.0,
+          "normalized_rounded": 2263.377
+        },
+        {
+          "well": "D2",
+          "group": "native 1B",
+          "condition": "P",
+          "od600": 1.365,
+          "fluorescence": 2576.0,
+          "normalized_rounded": 1887.179
+        },
+        {
+          "well": "D3",
+          "group": "native 1B",
+          "condition": "P",
+          "od600": 1.424,
+          "fluorescence": 2838.0,
+          "normalized_rounded": 1992.978
+        },
+        {
+          "well": "B1",
+          "group": "native 2A",
+          "condition": "N",
+          "od600": 1.447,
+          "fluorescence": 19756.0,
+          "normalized_rounded": 13653.075
+        },
+        {
+          "well": "B2",
+          "group": "native 2A",
+          "condition": "N",
+          "od600": 1.38,
+          "fluorescence": 17574.0,
+          "normalized_rounded": 12734.783
+        },
+        {
+          "well": "B3",
+          "group": "native 2A",
+          "condition": "N",
+          "od600": 1.409,
+          "fluorescence": 15866.0,
+          "normalized_rounded": 11260.468
+        },
+        {
+          "well": "E1",
+          "group": "native 2A",
+          "condition": "P",
+          "od600": 1.35,
+          "fluorescence": 1845.0,
+          "normalized_rounded": 1366.667
+        },
+        {
+          "well": "E2",
+          "group": "native 2A",
+          "condition": "P",
+          "od600": 1.419,
+          "fluorescence": 2287.0,
+          "normalized_rounded": 1611.698
+        },
+        {
+          "well": "E3",
+          "group": "native 2A",
+          "condition": "P",
+          "od600": 1.609,
+          "fluorescence": 2010.0,
+          "normalized_rounded": 1249.223
+        },
+        {
+          "well": "C1",
+          "group": "native 3A",
+          "condition": "N",
+          "od600": 1.402,
+          "fluorescence": 15311.0,
+          "normalized_rounded": 10920.827
+        },
+        {
+          "well": "C2",
+          "group": "native 3A",
+          "condition": "N",
+          "od600": 1.429,
+          "fluorescence": 13401.0,
+          "normalized_rounded": 9377.887
+        },
+        {
+          "well": "C3",
+          "group": "native 3A",
+          "condition": "N",
+          "od600": 1.402,
+          "fluorescence": 12199.0,
+          "normalized_rounded": 8701.141
+        },
+        {
+          "well": "F1",
+          "group": "native 3A",
+          "condition": "P",
+          "od600": 1.319,
+          "fluorescence": 2300.0,
+          "normalized_rounded": 1743.745
+        },
+        {
+          "well": "F2",
+          "group": "native 3A",
+          "condition": "P",
+          "od600": 1.333,
+          "fluorescence": 1948.0,
+          "normalized_rounded": 1461.365
+        },
+        {
+          "well": "F3",
+          "group": "native 3A",
+          "condition": "P",
+          "od600": 1.482,
+          "fluorescence": 2290.0,
+          "normalized_rounded": 1545.209
+        },
+        {
+          "well": "A4",
+          "group": "BoxB 2A",
+          "condition": "N",
+          "od600": 1.829,
+          "fluorescence": 52938.0,
+          "normalized_rounded": 28943.685
+        },
+        {
+          "well": "A5",
+          "group": "BoxB 2A",
+          "condition": "N",
+          "od600": 1.449,
+          "fluorescence": 19138.0,
+          "normalized_rounded": 13207.729
+        },
+        {
+          "well": "A6",
+          "group": "BoxB 2A",
+          "condition": "N",
+          "od600": 1.565,
+          "fluorescence": 23805.0,
+          "normalized_rounded": 15210.863
+        },
+        {
+          "well": "D4",
+          "group": "BoxB 2A",
+          "condition": "P",
+          "od600": 1.766,
+          "fluorescence": 32857.0,
+          "normalized_rounded": 18605.323
+        },
+        {
+          "well": "D5",
+          "group": "BoxB 2A",
+          "condition": "P",
+          "od600": 1.158,
+          "fluorescence": 9268.0,
+          "normalized_rounded": 8003.454
+        },
+        {
+          "well": "D6",
+          "group": "BoxB 2A",
+          "condition": "P",
+          "od600": 1.34,
+          "fluorescence": 12161.0,
+          "normalized_rounded": 9075.373
+        },
+        {
+          "well": "B4",
+          "group": "BoxB 3A",
+          "condition": "N",
+          "od600": 1.688,
+          "fluorescence": 30926.0,
+          "normalized_rounded": 18321.09
+        },
+        {
+          "well": "B5",
+          "group": "BoxB 3A",
+          "condition": "N",
+          "od600": 1.579,
+          "fluorescence": 22673.0,
+          "normalized_rounded": 14359.088
+        },
+        {
+          "well": "B6",
+          "group": "BoxB 3A",
+          "condition": "N",
+          "od600": 1.552,
+          "fluorescence": 25078.0,
+          "normalized_rounded": 16158.505
+        },
+        {
+          "well": "E4",
+          "group": "BoxB 3A",
+          "condition": "P",
+          "od600": 1.334,
+          "fluorescence": 8125.0,
+          "normalized_rounded": 6090.705
+        },
+        {
+          "well": "E5",
+          "group": "BoxB 3A",
+          "condition": "P",
+          "od600": 1.136,
+          "fluorescence": 5923.0,
+          "normalized_rounded": 5213.908
+        },
+        {
+          "well": "E6",
+          "group": "BoxB 3A",
+          "condition": "P",
+          "od600": 1.361,
+          "fluorescence": 8277.0,
+          "normalized_rounded": 6081.558
+        }
+      ]
+    },
+    {
+      "audit_index": 3,
+      "endpoint_h": 15,
+      "groups": [
+        {
+          "name": "088",
+          "wells": {
+            "N": [
+              "A1",
+              "B1",
+              "C1"
+            ],
+            "P": [
+              "D1",
+              "E1",
+              "F1"
+            ]
+          },
+          "expected_means": {
+            "N": 25804.881,
+            "P": 3380.94
+          }
+        },
+        {
+          "name": "132",
+          "wells": {
+            "N": [
+              "A2",
+              "B2",
+              "C2"
+            ],
+            "P": [
+              "D2",
+              "E2",
+              "F2"
+            ]
+          },
+          "expected_means": {
+            "N": 2780.085,
+            "P": 1970.552
+          }
+        },
+        {
+          "name": "134",
+          "wells": {
+            "N": [
+              "A3",
+              "B3",
+              "C3"
+            ],
+            "P": [
+              "D3",
+              "E3",
+              "F3"
+            ]
+          },
+          "expected_means": {
+            "N": 2474.859,
+            "P": 1550.872
+          }
+        },
+        {
+          "name": "135",
+          "wells": {
+            "N": [
+              "A4",
+              "B4",
+              "C4"
+            ],
+            "P": [
+              "D4",
+              "E4",
+              "F4"
+            ]
+          },
+          "expected_means": {
+            "N": 3443.468,
+            "P": 1753.301
+          }
+        },
+        {
+          "name": "136",
+          "wells": {
+            "N": [
+              "A5",
+              "B5",
+              "C5"
+            ],
+            "P": [
+              "D5",
+              "E5",
+              "F5"
+            ]
+          },
+          "expected_means": {
+            "N": 24807.677,
+            "P": 20720.373
+          }
+        },
+        {
+          "name": "142",
+          "wells": {
+            "N": [
+              "A6",
+              "B6",
+              "C6"
+            ],
+            "P": [
+              "D6",
+              "E6",
+              "F6"
+            ]
+          },
+          "expected_means": {
+            "N": 25910.128,
+            "P": 3414.366
+          }
+        },
+        {
+          "name": "144",
+          "wells": {
+            "N": [
+              "A7",
+              "B7",
+              "C7"
+            ],
+            "P": [
+              "D7",
+              "E7",
+              "F7"
+            ]
+          },
+          "expected_means": {
+            "N": 25885.726,
+            "P": 5305.74
+          }
+        }
+      ],
+      "reference_wells": [
+        {
+          "well": "A1",
+          "group": "088",
+          "condition": "N",
+          "od600": 1.645,
+          "fluorescence": 42995.0,
+          "normalized_rounded": 26136.778
+        },
+        {
+          "well": "B1",
+          "group": "088",
+          "condition": "N",
+          "od600": 1.669,
+          "fluorescence": 44160.0,
+          "normalized_rounded": 26458.957
+        },
+        {
+          "well": "C1",
+          "group": "088",
+          "condition": "N",
+          "od600": 1.629,
+          "fluorescence": 40430.0,
+          "normalized_rounded": 24818.907
+        },
+        {
+          "well": "D1",
+          "group": "088",
+          "condition": "P",
+          "od600": 1.685,
+          "fluorescence": 7279.0,
+          "normalized_rounded": 4319.881
+        },
+        {
+          "well": "E1",
+          "group": "088",
+          "condition": "P",
+          "od600": 1.671,
+          "fluorescence": 4852.0,
+          "normalized_rounded": 2903.651
+        },
+        {
+          "well": "F1",
+          "group": "088",
+          "condition": "P",
+          "od600": 1.685,
+          "fluorescence": 4919.0,
+          "normalized_rounded": 2919.288
+        },
+        {
+          "well": "A2",
+          "group": "132",
+          "condition": "N",
+          "od600": 1.644,
+          "fluorescence": 4323.0,
+          "normalized_rounded": 2629.562
+        },
+        {
+          "well": "B2",
+          "group": "132",
+          "condition": "N",
+          "od600": 1.635,
+          "fluorescence": 5160.0,
+          "normalized_rounded": 3155.963
+        },
+        {
+          "well": "C2",
+          "group": "132",
+          "condition": "N",
+          "od600": 1.617,
+          "fluorescence": 4131.0,
+          "normalized_rounded": 2554.731
+        },
+        {
+          "well": "D2",
+          "group": "132",
+          "condition": "P",
+          "od600": 1.377,
+          "fluorescence": 2580.0,
+          "normalized_rounded": 1873.638
+        },
+        {
+          "well": "E2",
+          "group": "132",
+          "condition": "P",
+          "od600": 1.452,
+          "fluorescence": 2463.0,
+          "normalized_rounded": 1696.281
+        },
+        {
+          "well": "F2",
+          "group": "132",
+          "condition": "P",
+          "od600": 1.428,
+          "fluorescence": 3344.0,
+          "normalized_rounded": 2341.737
+        },
+        {
+          "well": "A3",
+          "group": "134",
+          "condition": "N",
+          "od600": 1.654,
+          "fluorescence": 4471.0,
+          "normalized_rounded": 2703.144
+        },
+        {
+          "well": "B3",
+          "group": "134",
+          "condition": "N",
+          "od600": 1.623,
+          "fluorescence": 3831.0,
+          "normalized_rounded": 2360.444
+        },
+        {
+          "well": "C3",
+          "group": "134",
+          "condition": "N",
+          "od600": 1.615,
+          "fluorescence": 3813.0,
+          "normalized_rounded": 2360.991
+        },
+        {
+          "well": "D3",
+          "group": "134",
+          "condition": "P",
+          "od600": 1.442,
+          "fluorescence": 2071.0,
+          "normalized_rounded": 1436.2
+        },
+        {
+          "well": "E3",
+          "group": "134",
+          "condition": "P",
+          "od600": 1.486,
+          "fluorescence": 1953.0,
+          "normalized_rounded": 1314.266
+        },
+        {
+          "well": "F3",
+          "group": "134",
+          "condition": "P",
+          "od600": 1.441,
+          "fluorescence": 2741.0,
+          "normalized_rounded": 1902.151
+        },
+        {
+          "well": "A4",
+          "group": "135",
+          "condition": "N",
+          "od600": 1.651,
+          "fluorescence": 6051.0,
+          "normalized_rounded": 3665.051
+        },
+        {
+          "well": "B4",
+          "group": "135",
+          "condition": "N",
+          "od600": 1.642,
+          "fluorescence": 6334.0,
+          "normalized_rounded": 3857.491
+        },
+        {
+          "well": "C4",
+          "group": "135",
+          "condition": "N",
+          "od600": 1.603,
+          "fluorescence": 4501.0,
+          "normalized_rounded": 2807.86
+        },
+        {
+          "well": "D4",
+          "group": "135",
+          "condition": "P",
+          "od600": 1.273,
+          "fluorescence": 2159.0,
+          "normalized_rounded": 1695.994
+        },
+        {
+          "well": "E4",
+          "group": "135",
+          "condition": "P",
+          "od600": 1.367,
+          "fluorescence": 2789.0,
+          "normalized_rounded": 2040.234
+        },
+        {
+          "well": "F4",
+          "group": "135",
+          "condition": "P",
+          "od600": 1.415,
+          "fluorescence": 2156.0,
+          "normalized_rounded": 1523.675
+        },
+        {
+          "well": "A5",
+          "group": "136",
+          "condition": "N",
+          "od600": 1.606,
+          "fluorescence": 39391.0,
+          "normalized_rounded": 24527.397
+        },
+        {
+          "well": "B5",
+          "group": "136",
+          "condition": "N",
+          "od600": 1.635,
+          "fluorescence": 41768.0,
+          "normalized_rounded": 25546.177
+        },
+        {
+          "well": "C5",
+          "group": "136",
+          "condition": "N",
+          "od600": 1.654,
+          "fluorescence": 40274.0,
+          "normalized_rounded": 24349.456
+        },
+        {
+          "well": "D5",
+          "group": "136",
+          "condition": "P",
+          "od600": 1.573,
+          "fluorescence": 31723.0,
+          "normalized_rounded": 20167.196
+        },
+        {
+          "well": "E5",
+          "group": "136",
+          "condition": "P",
+          "od600": 1.593,
+          "fluorescence": 30932.0,
+          "normalized_rounded": 19417.451
+        },
+        {
+          "well": "F5",
+          "group": "136",
+          "condition": "P",
+          "od600": 1.615,
+          "fluorescence": 36461.0,
+          "normalized_rounded": 22576.471
+        },
+        {
+          "well": "A6",
+          "group": "142",
+          "condition": "N",
+          "od600": 1.667,
+          "fluorescence": 45954.0,
+          "normalized_rounded": 27566.887
+        },
+        {
+          "well": "B6",
+          "group": "142",
+          "condition": "N",
+          "od600": 1.637,
+          "fluorescence": 44138.0,
+          "normalized_rounded": 26962.737
+        },
+        {
+          "well": "C6",
+          "group": "142",
+          "condition": "N",
+          "od600": 1.579,
+          "fluorescence": 36634.0,
+          "normalized_rounded": 23200.76
+        },
+        {
+          "well": "D6",
+          "group": "142",
+          "condition": "P",
+          "od600": 1.277,
+          "fluorescence": 3994.0,
+          "normalized_rounded": 3127.643
+        },
+        {
+          "well": "E6",
+          "group": "142",
+          "condition": "P",
+          "od600": 1.397,
+          "fluorescence": 5592.0,
+          "normalized_rounded": 4002.863
+        },
+        {
+          "well": "F6",
+          "group": "142",
+          "condition": "P",
+          "od600": 1.35,
+          "fluorescence": 4202.0,
+          "normalized_rounded": 3112.593
+        },
+        {
+          "well": "A7",
+          "group": "144",
+          "condition": "N",
+          "od600": 1.662,
+          "fluorescence": 47174.0,
+          "normalized_rounded": 28383.875
+        },
+        {
+          "well": "B7",
+          "group": "144",
+          "condition": "N",
+          "od600": 1.613,
+          "fluorescence": 41524.0,
+          "normalized_rounded": 25743.335
+        },
+        {
+          "well": "C7",
+          "group": "144",
+          "condition": "N",
+          "od600": 1.585,
+          "fluorescence": 37295.0,
+          "normalized_rounded": 23529.968
+        },
+        {
+          "well": "D7",
+          "group": "144",
+          "condition": "P",
+          "od600": 1.378,
+          "fluorescence": 4966.0,
+          "normalized_rounded": 3603.774
+        },
+        {
+          "well": "E7",
+          "group": "144",
+          "condition": "P",
+          "od600": 1.33,
+          "fluorescence": 8035.0,
+          "normalized_rounded": 6041.353
+        },
+        {
+          "well": "F7",
+          "group": "144",
+          "condition": "P",
+          "od600": 1.29,
+          "fluorescence": 8091.0,
+          "normalized_rounded": 6272.093
+        }
+      ]
+    },
+    {
+      "audit_index": 4,
+      "endpoint_h": 14,
+      "groups": [
+        {
+          "name": "088",
+          "wells": {
+            "N": [
+              "A1",
+              "B1",
+              "C1"
+            ],
+            "P": [
+              "D1",
+              "E1",
+              "F1"
+            ]
+          },
+          "expected_means": {
+            "N": 27830.8,
+            "P": 4440.513
+          }
+        },
+        {
+          "name": "137",
+          "wells": {
+            "N": [
+              "A2",
+              "B2",
+              "C2"
+            ],
+            "P": [
+              "D2",
+              "E2",
+              "F2"
+            ]
+          },
+          "expected_means": {
+            "N": 1725.15,
+            "P": 1904.544
+          }
+        },
+        {
+          "name": "138",
+          "wells": {
+            "N": [
+              "A3",
+              "B3",
+              "C3"
+            ],
+            "P": [
+              "D3",
+              "E3",
+              "F3"
+            ]
+          },
+          "expected_means": {
+            "N": 1780.145,
+            "P": 2065.073
+          }
+        },
+        {
+          "name": "139",
+          "wells": {
+            "N": [
+              "A4",
+              "B4",
+              "C4"
+            ],
+            "P": [
+              "D4",
+              "E4",
+              "F4"
+            ]
+          },
+          "expected_means": {
+            "N": 1638.455,
+            "P": 1876.142
+          }
+        },
+        {
+          "name": "140",
+          "wells": {
+            "N": [
+              "A5",
+              "B5",
+              "C5"
+            ],
+            "P": [
+              "D5",
+              "E5",
+              "F5"
+            ]
+          },
+          "expected_means": {
+            "N": 19987.557,
+            "P": 3936.089
+          }
+        },
+        {
+          "name": "141",
+          "wells": {
+            "N": [
+              "A6",
+              "B6",
+              "C6"
+            ],
+            "P": [
+              "D6",
+              "E6",
+              "F6"
+            ]
+          },
+          "expected_means": {
+            "N": 21010.786,
+            "P": 5136.693
+          }
+        },
+        {
+          "name": "143",
+          "wells": {
+            "N": [
+              "A7",
+              "B7",
+              "C7"
+            ],
+            "P": [
+              "D7",
+              "E7",
+              "F7"
+            ]
+          },
+          "expected_means": {
+            "N": 19629.619,
+            "P": 4764.024
+          }
+        },
+        {
+          "name": "145",
+          "wells": {
+            "N": [
+              "A8",
+              "B8",
+              "C8"
+            ],
+            "P": [
+              "D8",
+              "E8",
+              "F8"
+            ]
+          },
+          "expected_means": {
+            "N": 19691.845,
+            "P": 5094.662
+          }
+        }
+      ],
+      "reference_wells": [
+        {
+          "well": "A1",
+          "group": "088",
+          "condition": "N",
+          "od600": 1.602,
+          "fluorescence": 42388.0,
+          "normalized_rounded": 26459.426
+        },
+        {
+          "well": "B1",
+          "group": "088",
+          "condition": "N",
+          "od600": 1.655,
+          "fluorescence": 48897.0,
+          "normalized_rounded": 29545.015
+        },
+        {
+          "well": "C1",
+          "group": "088",
+          "condition": "N",
+          "od600": 1.578,
+          "fluorescence": 43376.0,
+          "normalized_rounded": 27487.959
+        },
+        {
+          "well": "D1",
+          "group": "088",
+          "condition": "P",
+          "od600": 1.617,
+          "fluorescence": 5557.0,
+          "normalized_rounded": 3436.611
+        },
+        {
+          "well": "E1",
+          "group": "088",
+          "condition": "P",
+          "od600": 1.642,
+          "fluorescence": 7647.0,
+          "normalized_rounded": 4657.125
+        },
+        {
+          "well": "F1",
+          "group": "088",
+          "condition": "P",
+          "od600": 1.633,
+          "fluorescence": 8537.0,
+          "normalized_rounded": 5227.802
+        },
+        {
+          "well": "A2",
+          "group": "137",
+          "condition": "N",
+          "od600": 1.631,
+          "fluorescence": 3478.0,
+          "normalized_rounded": 2132.434
+        },
+        {
+          "well": "B2",
+          "group": "137",
+          "condition": "N",
+          "od600": 1.611,
+          "fluorescence": 2691.0,
+          "normalized_rounded": 1670.391
+        },
+        {
+          "well": "C2",
+          "group": "137",
+          "condition": "N",
+          "od600": 1.578,
+          "fluorescence": 2166.0,
+          "normalized_rounded": 1372.624
+        },
+        {
+          "well": "D2",
+          "group": "137",
+          "condition": "P",
+          "od600": 1.334,
+          "fluorescence": 1990.0,
+          "normalized_rounded": 1491.754
+        },
+        {
+          "well": "E2",
+          "group": "137",
+          "condition": "P",
+          "od600": 1.376,
+          "fluorescence": 2115.0,
+          "normalized_rounded": 1537.064
+        },
+        {
+          "well": "F2",
+          "group": "137",
+          "condition": "P",
+          "od600": 1.396,
+          "fluorescence": 3748.0,
+          "normalized_rounded": 2684.814
+        },
+        {
+          "well": "A3",
+          "group": "138",
+          "condition": "N",
+          "od600": 1.625,
+          "fluorescence": 3299.0,
+          "normalized_rounded": 2030.154
+        },
+        {
+          "well": "B3",
+          "group": "138",
+          "condition": "N",
+          "od600": 1.579,
+          "fluorescence": 2533.0,
+          "normalized_rounded": 1604.18
+        },
+        {
+          "well": "C3",
+          "group": "138",
+          "condition": "N",
+          "od600": 1.606,
+          "fluorescence": 2740.0,
+          "normalized_rounded": 1706.102
+        },
+        {
+          "well": "D3",
+          "group": "138",
+          "condition": "P",
+          "od600": 1.293,
+          "fluorescence": 2387.0,
+          "normalized_rounded": 1846.094
+        },
+        {
+          "well": "E3",
+          "group": "138",
+          "condition": "P",
+          "od600": 1.356,
+          "fluorescence": 3092.0,
+          "normalized_rounded": 2280.236
+        },
+        {
+          "well": "F3",
+          "group": "138",
+          "condition": "P",
+          "od600": 1.35,
+          "fluorescence": 2793.0,
+          "normalized_rounded": 2068.889
+        },
+        {
+          "well": "A4",
+          "group": "139",
+          "condition": "N",
+          "od600": 1.626,
+          "fluorescence": 3349.0,
+          "normalized_rounded": 2059.656
+        },
+        {
+          "well": "B4",
+          "group": "139",
+          "condition": "N",
+          "od600": 1.589,
+          "fluorescence": 2402.0,
+          "normalized_rounded": 1511.643
+        },
+        {
+          "well": "C4",
+          "group": "139",
+          "condition": "N",
+          "od600": 1.584,
+          "fluorescence": 2129.0,
+          "normalized_rounded": 1344.066
+        },
+        {
+          "well": "D4",
+          "group": "139",
+          "condition": "P",
+          "od600": 1.275,
+          "fluorescence": 2186.0,
+          "normalized_rounded": 1714.51
+        },
+        {
+          "well": "E4",
+          "group": "139",
+          "condition": "P",
+          "od600": 1.319,
+          "fluorescence": 2537.0,
+          "normalized_rounded": 1923.427
+        },
+        {
+          "well": "F4",
+          "group": "139",
+          "condition": "P",
+          "od600": 1.367,
+          "fluorescence": 2721.0,
+          "normalized_rounded": 1990.49
+        },
+        {
+          "well": "A5",
+          "group": "140",
+          "condition": "N",
+          "od600": 1.642,
+          "fluorescence": 35104.0,
+          "normalized_rounded": 21378.806
+        },
+        {
+          "well": "B5",
+          "group": "140",
+          "condition": "N",
+          "od600": 1.573,
+          "fluorescence": 28377.0,
+          "normalized_rounded": 18040.051
+        },
+        {
+          "well": "C5",
+          "group": "140",
+          "condition": "N",
+          "od600": 1.552,
+          "fluorescence": 31884.0,
+          "normalized_rounded": 20543.814
+        },
+        {
+          "well": "D5",
+          "group": "140",
+          "condition": "P",
+          "od600": 1.235,
+          "fluorescence": 3948.0,
+          "normalized_rounded": 3196.761
+        },
+        {
+          "well": "E5",
+          "group": "140",
+          "condition": "P",
+          "od600": 1.102,
+          "fluorescence": 4489.0,
+          "normalized_rounded": 4073.503
+        },
+        {
+          "well": "F5",
+          "group": "140",
+          "condition": "P",
+          "od600": 1.171,
+          "fluorescence": 5314.0,
+          "normalized_rounded": 4538.002
+        },
+        {
+          "well": "A6",
+          "group": "141",
+          "condition": "N",
+          "od600": 1.655,
+          "fluorescence": 38442.0,
+          "normalized_rounded": 23227.795
+        },
+        {
+          "well": "B6",
+          "group": "141",
+          "condition": "N",
+          "od600": 1.533,
+          "fluorescence": 29719.0,
+          "normalized_rounded": 19386.171
+        },
+        {
+          "well": "C6",
+          "group": "141",
+          "condition": "N",
+          "od600": 1.544,
+          "fluorescence": 31526.0,
+          "normalized_rounded": 20418.394
+        },
+        {
+          "well": "D6",
+          "group": "141",
+          "condition": "P",
+          "od600": 1.214,
+          "fluorescence": 6655.0,
+          "normalized_rounded": 5481.878
+        },
+        {
+          "well": "E6",
+          "group": "141",
+          "condition": "P",
+          "od600": 1.074,
+          "fluorescence": 5600.0,
+          "normalized_rounded": 5214.153
+        },
+        {
+          "well": "F6",
+          "group": "141",
+          "condition": "P",
+          "od600": 1.196,
+          "fluorescence": 5638.0,
+          "normalized_rounded": 4714.047
+        },
+        {
+          "well": "A7",
+          "group": "143",
+          "condition": "N",
+          "od600": 1.593,
+          "fluorescence": 33406.0,
+          "normalized_rounded": 20970.496
+        },
+        {
+          "well": "B7",
+          "group": "143",
+          "condition": "N",
+          "od600": 1.61,
+          "fluorescence": 34129.0,
+          "normalized_rounded": 21198.137
+        },
+        {
+          "well": "C7",
+          "group": "143",
+          "condition": "N",
+          "od600": 1.419,
+          "fluorescence": 23726.0,
+          "normalized_rounded": 16720.226
+        },
+        {
+          "well": "D7",
+          "group": "143",
+          "condition": "P",
+          "od600": 1.137,
+          "fluorescence": 4689.0,
+          "normalized_rounded": 4124.011
+        },
+        {
+          "well": "E7",
+          "group": "143",
+          "condition": "P",
+          "od600": 1.367,
+          "fluorescence": 7199.0,
+          "normalized_rounded": 5266.277
+        },
+        {
+          "well": "F7",
+          "group": "143",
+          "condition": "P",
+          "od600": 1.232,
+          "fluorescence": 6039.0,
+          "normalized_rounded": 4901.786
+        },
+        {
+          "well": "A8",
+          "group": "145",
+          "condition": "N",
+          "od600": 1.545,
+          "fluorescence": 25174.0,
+          "normalized_rounded": 16293.851
+        },
+        {
+          "well": "B8",
+          "group": "145",
+          "condition": "N",
+          "od600": 1.664,
+          "fluorescence": 38862.0,
+          "normalized_rounded": 23354.567
+        },
+        {
+          "well": "C8",
+          "group": "145",
+          "condition": "N",
+          "od600": 1.571,
+          "fluorescence": 30520.0,
+          "normalized_rounded": 19427.116
+        },
+        {
+          "well": "D8",
+          "group": "145",
+          "condition": "P",
+          "od600": 1.117,
+          "fluorescence": 4894.0,
+          "normalized_rounded": 4381.379
+        },
+        {
+          "well": "E8",
+          "group": "145",
+          "condition": "P",
+          "od600": 1.293,
+          "fluorescence": 7249.0,
+          "normalized_rounded": 5606.342
+        },
+        {
+          "well": "F8",
+          "group": "145",
+          "condition": "P",
+          "od600": 1.259,
+          "fluorescence": 6668.0,
+          "normalized_rounded": 5296.267
+        }
+      ]
+    },
+    {
+      "audit_index": 9,
+      "endpoint_h": 10,
+      "groups": [
+        {
+          "name": "088 / 165 (T7)",
+          "wells": {
+            "N": [
+              "A1",
+              "A2",
+              "A3"
+            ],
+            "P": [
+              "A4",
+              "A5",
+              "A6"
+            ]
+          },
+          "expected_means": {
+            "N": 1767.615,
+            "P": 373.88
+          }
+        },
+        {
+          "name": "164 / 161 (T7)",
+          "wells": {
+            "N": [
+              "A7",
+              "A8",
+              "A9"
+            ],
+            "P": [
+              "A10",
+              "A11",
+              "A12"
+            ]
+          },
+          "expected_means": {
+            "N": 1163.865,
+            "P": 147.838
+          }
+        },
+        {
+          "name": "088 / 166 (T8)",
+          "wells": {
+            "N": [
+              "B1",
+              "B2",
+              "B3"
+            ],
+            "P": [
+              "B4",
+              "B5",
+              "B6"
+            ]
+          },
+          "expected_means": {
+            "N": 1825.525,
+            "P": 376.765
+          }
+        },
+        {
+          "name": "164 / 162 (T8)",
+          "wells": {
+            "N": [
+              "B7",
+              "B8",
+              "B9"
+            ],
+            "P": [
+              "B10",
+              "B11",
+              "B12"
+            ]
+          },
+          "expected_means": {
+            "N": 1557.688,
+            "P": 443.747
+          }
+        },
+        {
+          "name": "088 / 167 (T9)",
+          "wells": {
+            "N": [
+              "C1",
+              "C2",
+              "C3"
+            ],
+            "P": [
+              "C4",
+              "C5",
+              "C6"
+            ]
+          },
+          "expected_means": {
+            "N": 1758.184,
+            "P": 448.239
+          }
+        },
+        {
+          "name": "164 / 163 (T9)",
+          "wells": {
+            "N": [
+              "C7",
+              "C8",
+              "C9"
+            ],
+            "P": [
+              "C10",
+              "C11",
+              "C12"
+            ]
+          },
+          "expected_means": {
+            "N": 1131.571,
+            "P": 476.19
+          }
+        },
+        {
+          "name": "088 / 168 (NT)",
+          "wells": {
+            "N": [
+              "D1",
+              "D2",
+              "D3"
+            ],
+            "P": [
+              "D4",
+              "D5",
+              "D6"
+            ]
+          },
+          "expected_means": {
+            "N": 1473.992,
+            "P": 1308.786
+          }
+        },
+        {
+          "name": "164 / 169 (NT)",
+          "wells": {
+            "N": [
+              "D7",
+              "D8",
+              "D9"
+            ],
+            "P": [
+              "D10",
+              "D11",
+              "D12"
+            ]
+          },
+          "expected_means": {
+            "N": 1670.273,
+            "P": 991.592
+          }
+        },
+        {
+          "name": "132 / 165 (T7)",
+          "wells": {
+            "N": [
+              "E1",
+              "E2",
+              "E3"
+            ],
+            "P": [
+              "E4",
+              "E5",
+              "E6"
+            ]
+          },
+          "expected_means": {
+            "N": 432.157,
+            "P": 116.361
+          }
+        },
+        {
+          "name": "132 / 166 (T8)",
+          "wells": {
+            "N": [
+              "F1",
+              "F2",
+              "F3"
+            ],
+            "P": [
+              "F4",
+              "F5",
+              "F6"
+            ]
+          },
+          "expected_means": {
+            "N": 411.411,
+            "P": 208.107
+          }
+        },
+        {
+          "name": "132 / 168 (NT)",
+          "wells": {
+            "N": [
+              "G1",
+              "G2",
+              "G3"
+            ],
+            "P": [
+              "G4",
+              "G5",
+              "G6"
+            ]
+          },
+          "expected_means": {
+            "N": 438.683,
+            "P": 165.061
+          }
+        }
+      ],
+      "reference_wells": [
+        {
+          "well": "A1",
+          "group": "088 / 165 (T7)",
+          "condition": "N",
+          "od600": 1.318,
+          "fluorescence": 2280.0,
+          "normalized_rounded": 1729.894
+        },
+        {
+          "well": "A2",
+          "group": "088 / 165 (T7)",
+          "condition": "N",
+          "od600": 1.439,
+          "fluorescence": 2545.0,
+          "normalized_rounded": 1768.589
+        },
+        {
+          "well": "A3",
+          "group": "088 / 165 (T7)",
+          "condition": "N",
+          "od600": 1.421,
+          "fluorescence": 2564.0,
+          "normalized_rounded": 1804.363
+        },
+        {
+          "well": "A4",
+          "group": "088 / 165 (T7)",
+          "condition": "P",
+          "od600": 1.353,
+          "fluorescence": 427.0,
+          "normalized_rounded": 315.595
+        },
+        {
+          "well": "A5",
+          "group": "088 / 165 (T7)",
+          "condition": "P",
+          "od600": 1.38,
+          "fluorescence": 620.0,
+          "normalized_rounded": 449.275
+        },
+        {
+          "well": "A6",
+          "group": "088 / 165 (T7)",
+          "condition": "P",
+          "od600": 1.337,
+          "fluorescence": 477.0,
+          "normalized_rounded": 356.769
+        },
+        {
+          "well": "A7",
+          "group": "164 / 161 (T7)",
+          "condition": "N",
+          "od600": 1.462,
+          "fluorescence": 1643.0,
+          "normalized_rounded": 1123.803
+        },
+        {
+          "well": "A8",
+          "group": "164 / 161 (T7)",
+          "condition": "N",
+          "od600": 1.442,
+          "fluorescence": 1566.0,
+          "normalized_rounded": 1085.992
+        },
+        {
+          "well": "A9",
+          "group": "164 / 161 (T7)",
+          "condition": "N",
+          "od600": 1.533,
+          "fluorescence": 1965.0,
+          "normalized_rounded": 1281.8
+        },
+        {
+          "well": "A10",
+          "group": "164 / 161 (T7)",
+          "condition": "P",
+          "od600": 1.373,
+          "fluorescence": 228.0,
+          "normalized_rounded": 166.06
+        },
+        {
+          "well": "A11",
+          "group": "164 / 161 (T7)",
+          "condition": "P",
+          "od600": 1.327,
+          "fluorescence": 207.0,
+          "normalized_rounded": 155.991
+        },
+        {
+          "well": "A12",
+          "group": "164 / 161 (T7)",
+          "condition": "P",
+          "od600": 1.449,
+          "fluorescence": 176.0,
+          "normalized_rounded": 121.463
+        },
+        {
+          "well": "B1",
+          "group": "088 / 166 (T8)",
+          "condition": "N",
+          "od600": 1.534,
+          "fluorescence": 2981.0,
+          "normalized_rounded": 1943.286
+        },
+        {
+          "well": "B2",
+          "group": "088 / 166 (T8)",
+          "condition": "N",
+          "od600": 1.472,
+          "fluorescence": 2727.0,
+          "normalized_rounded": 1852.582
+        },
+        {
+          "well": "B3",
+          "group": "088 / 166 (T8)",
+          "condition": "N",
+          "od600": 1.472,
+          "fluorescence": 2474.0,
+          "normalized_rounded": 1680.707
+        },
+        {
+          "well": "B4",
+          "group": "088 / 166 (T8)",
+          "condition": "P",
+          "od600": 1.523,
+          "fluorescence": 636.0,
+          "normalized_rounded": 417.597
+        },
+        {
+          "well": "B5",
+          "group": "088 / 166 (T8)",
+          "condition": "P",
+          "od600": 1.475,
+          "fluorescence": 622.0,
+          "normalized_rounded": 421.695
+        },
+        {
+          "well": "B6",
+          "group": "088 / 166 (T8)",
+          "condition": "P",
+          "od600": 1.567,
+          "fluorescence": 456.0,
+          "normalized_rounded": 291.002
+        },
+        {
+          "well": "B7",
+          "group": "164 / 162 (T8)",
+          "condition": "N",
+          "od600": 1.384,
+          "fluorescence": 2147.0,
+          "normalized_rounded": 1551.301
+        },
+        {
+          "well": "B8",
+          "group": "164 / 162 (T8)",
+          "condition": "N",
+          "od600": 1.306,
+          "fluorescence": 2020.0,
+          "normalized_rounded": 1546.708
+        },
+        {
+          "well": "B9",
+          "group": "164 / 162 (T8)",
+          "condition": "N",
+          "od600": 1.339,
+          "fluorescence": 2109.0,
+          "normalized_rounded": 1575.056
+        },
+        {
+          "well": "B10",
+          "group": "164 / 162 (T8)",
+          "condition": "P",
+          "od600": 1.263,
+          "fluorescence": 566.0,
+          "normalized_rounded": 448.139
+        },
+        {
+          "well": "B11",
+          "group": "164 / 162 (T8)",
+          "condition": "P",
+          "od600": 1.132,
+          "fluorescence": 488.0,
+          "normalized_rounded": 431.095
+        },
+        {
+          "well": "B12",
+          "group": "164 / 162 (T8)",
+          "condition": "P",
+          "od600": 1.146,
+          "fluorescence": 518.0,
+          "normalized_rounded": 452.007
+        },
+        {
+          "well": "C1",
+          "group": "088 / 167 (T9)",
+          "condition": "N",
+          "od600": 1.397,
+          "fluorescence": 2517.0,
+          "normalized_rounded": 1801.718
+        },
+        {
+          "well": "C2",
+          "group": "088 / 167 (T9)",
+          "condition": "N",
+          "od600": 1.445,
+          "fluorescence": 2476.0,
+          "normalized_rounded": 1713.495
+        },
+        {
+          "well": "C3",
+          "group": "088 / 167 (T9)",
+          "condition": "N",
+          "od600": 1.392,
+          "fluorescence": 2449.0,
+          "normalized_rounded": 1759.339
+        },
+        {
+          "well": "C4",
+          "group": "088 / 167 (T9)",
+          "condition": "P",
+          "od600": 1.451,
+          "fluorescence": 749.0,
+          "normalized_rounded": 516.196
+        },
+        {
+          "well": "C5",
+          "group": "088 / 167 (T9)",
+          "condition": "P",
+          "od600": 1.435,
+          "fluorescence": 613.0,
+          "normalized_rounded": 427.178
+        },
+        {
+          "well": "C6",
+          "group": "088 / 167 (T9)",
+          "condition": "P",
+          "od600": 1.49,
+          "fluorescence": 598.0,
+          "normalized_rounded": 401.342
+        },
+        {
+          "well": "C7",
+          "group": "164 / 163 (T9)",
+          "condition": "N",
+          "od600": 1.084,
+          "fluorescence": 1134.0,
+          "normalized_rounded": 1046.125
+        },
+        {
+          "well": "C8",
+          "group": "164 / 163 (T9)",
+          "condition": "N",
+          "od600": 1.124,
+          "fluorescence": 1687.0,
+          "normalized_rounded": 1500.89
+        },
+        {
+          "well": "C9",
+          "group": "164 / 163 (T9)",
+          "condition": "N",
+          "od600": 0.847,
+          "fluorescence": 718.0,
+          "normalized_rounded": 847.698
+        },
+        {
+          "well": "C10",
+          "group": "164 / 163 (T9)",
+          "condition": "P",
+          "od600": 0.788,
+          "fluorescence": 353.0,
+          "normalized_rounded": 447.97
+        },
+        {
+          "well": "C11",
+          "group": "164 / 163 (T9)",
+          "condition": "P",
+          "od600": 1.175,
+          "fluorescence": 567.0,
+          "normalized_rounded": 482.553
+        },
+        {
+          "well": "C12",
+          "group": "164 / 163 (T9)",
+          "condition": "P",
+          "od600": 0.512,
+          "fluorescence": 255.0,
+          "normalized_rounded": 498.047
+        },
+        {
+          "well": "D1",
+          "group": "088 / 168 (NT)",
+          "condition": "N",
+          "od600": 1.511,
+          "fluorescence": 2215.0,
+          "normalized_rounded": 1465.917
+        },
+        {
+          "well": "D2",
+          "group": "088 / 168 (NT)",
+          "condition": "N",
+          "od600": 1.518,
+          "fluorescence": 2286.0,
+          "normalized_rounded": 1505.929
+        },
+        {
+          "well": "D3",
+          "group": "088 / 168 (NT)",
+          "condition": "N",
+          "od600": 1.524,
+          "fluorescence": 2210.0,
+          "normalized_rounded": 1450.131
+        },
+        {
+          "well": "D4",
+          "group": "088 / 168 (NT)",
+          "condition": "P",
+          "od600": 1.404,
+          "fluorescence": 1780.0,
+          "normalized_rounded": 1267.806
+        },
+        {
+          "well": "D5",
+          "group": "088 / 168 (NT)",
+          "condition": "P",
+          "od600": 1.441,
+          "fluorescence": 1896.0,
+          "normalized_rounded": 1315.753
+        },
+        {
+          "well": "D6",
+          "group": "088 / 168 (NT)",
+          "condition": "P",
+          "od600": 1.444,
+          "fluorescence": 1939.0,
+          "normalized_rounded": 1342.798
+        },
+        {
+          "well": "D7",
+          "group": "164 / 169 (NT)",
+          "condition": "N",
+          "od600": 1.299,
+          "fluorescence": 2103.0,
+          "normalized_rounded": 1618.938
+        },
+        {
+          "well": "D8",
+          "group": "164 / 169 (NT)",
+          "condition": "N",
+          "od600": 1.309,
+          "fluorescence": 1944.0,
+          "normalized_rounded": 1485.103
+        },
+        {
+          "well": "D9",
+          "group": "164 / 169 (NT)",
+          "condition": "N",
+          "od600": 1.534,
+          "fluorescence": 2925.0,
+          "normalized_rounded": 1906.78
+        },
+        {
+          "well": "D10",
+          "group": "164 / 169 (NT)",
+          "condition": "P",
+          "od600": 1.087,
+          "fluorescence": 1099.0,
+          "normalized_rounded": 1011.04
+        },
+        {
+          "well": "D11",
+          "group": "164 / 169 (NT)",
+          "condition": "P",
+          "od600": 1.109,
+          "fluorescence": 1106.0,
+          "normalized_rounded": 997.295
+        },
+        {
+          "well": "D12",
+          "group": "164 / 169 (NT)",
+          "condition": "P",
+          "od600": 1.341,
+          "fluorescence": 1296.0,
+          "normalized_rounded": 966.443
+        },
+        {
+          "well": "E1",
+          "group": "132 / 165 (T7)",
+          "condition": "N",
+          "od600": 1.474,
+          "fluorescence": 633.0,
+          "normalized_rounded": 429.444
+        },
+        {
+          "well": "E2",
+          "group": "132 / 165 (T7)",
+          "condition": "N",
+          "od600": 1.48,
+          "fluorescence": 639.0,
+          "normalized_rounded": 431.757
+        },
+        {
+          "well": "E3",
+          "group": "132 / 165 (T7)",
+          "condition": "N",
+          "od600": 1.514,
+          "fluorescence": 659.0,
+          "normalized_rounded": 435.271
+        },
+        {
+          "well": "E4",
+          "group": "132 / 165 (T7)",
+          "condition": "P",
+          "od600": 1.057,
+          "fluorescence": 119.0,
+          "normalized_rounded": 112.583
+        },
+        {
+          "well": "E5",
+          "group": "132 / 165 (T7)",
+          "condition": "P",
+          "od600": 1.098,
+          "fluorescence": 115.0,
+          "normalized_rounded": 104.736
+        },
+        {
+          "well": "E6",
+          "group": "132 / 165 (T7)",
+          "condition": "P",
+          "od600": 1.275,
+          "fluorescence": 168.0,
+          "normalized_rounded": 131.765
+        },
+        {
+          "well": "F1",
+          "group": "132 / 166 (T8)",
+          "condition": "N",
+          "od600": 1.543,
+          "fluorescence": 632.0,
+          "normalized_rounded": 409.592
+        },
+        {
+          "well": "F2",
+          "group": "132 / 166 (T8)",
+          "condition": "N",
+          "od600": 1.515,
+          "fluorescence": 604.0,
+          "normalized_rounded": 398.68
+        },
+        {
+          "well": "F3",
+          "group": "132 / 166 (T8)",
+          "condition": "N",
+          "od600": 1.533,
+          "fluorescence": 653.0,
+          "normalized_rounded": 425.962
+        },
+        {
+          "well": "F4",
+          "group": "132 / 166 (T8)",
+          "condition": "P",
+          "od600": 1.285,
+          "fluorescence": 291.0,
+          "normalized_rounded": 226.459
+        },
+        {
+          "well": "F5",
+          "group": "132 / 166 (T8)",
+          "condition": "P",
+          "od600": 1.193,
+          "fluorescence": 287.0,
+          "normalized_rounded": 240.57
+        },
+        {
+          "well": "F6",
+          "group": "132 / 166 (T8)",
+          "condition": "P",
+          "od600": 1.049,
+          "fluorescence": 165.0,
+          "normalized_rounded": 157.293
+        },
+        {
+          "well": "G1",
+          "group": "132 / 168 (NT)",
+          "condition": "N",
+          "od600": 1.535,
+          "fluorescence": 687.0,
+          "normalized_rounded": 447.557
+        },
+        {
+          "well": "G2",
+          "group": "132 / 168 (NT)",
+          "condition": "N",
+          "od600": 1.556,
+          "fluorescence": 643.0,
+          "normalized_rounded": 413.239
+        },
+        {
+          "well": "G3",
+          "group": "132 / 168 (NT)",
+          "condition": "N",
+          "od600": 1.542,
+          "fluorescence": 702.0,
+          "normalized_rounded": 455.253
+        },
+        {
+          "well": "G4",
+          "group": "132 / 168 (NT)",
+          "condition": "P",
+          "od600": 1.232,
+          "fluorescence": 158.0,
+          "normalized_rounded": 128.247
+        },
+        {
+          "well": "G5",
+          "group": "132 / 168 (NT)",
+          "condition": "P",
+          "od600": 1.32,
+          "fluorescence": 309.0,
+          "normalized_rounded": 234.091
+        },
+        {
+          "well": "G6",
+          "group": "132 / 168 (NT)",
+          "condition": "P",
+          "od600": 1.227,
+          "fluorescence": 163.0,
+          "normalized_rounded": 132.844
+        }
+      ]
+    },
+    {
+      "audit_index": 11,
+      "endpoint_h": 10,
+      "groups": [
+        {
+          "name": "088 NT1",
+          "wells": {
+            "N": [
+              "A10",
+              "A11",
+              "A12"
+            ],
+            "P": [
+              "B10",
+              "B11",
+              "B12"
+            ]
+          },
+          "expected_means": {
+            "N": 12460.319,
+            "P": 7655.606
+          }
+        },
+        {
+          "name": "088 NT2",
+          "wells": {
+            "N": [
+              "C1",
+              "C2",
+              "C3"
+            ],
+            "P": [
+              "D1",
+              "D2",
+              "D3"
+            ]
+          },
+          "expected_means": {
+            "N": 14707.809,
+            "P": 6838.254
+          }
+        },
+        {
+          "name": "088 NT3",
+          "wells": {
+            "N": [
+              "C4",
+              "C5",
+              "C6"
+            ],
+            "P": [
+              "D4",
+              "D5",
+              "D6"
+            ]
+          },
+          "expected_means": {
+            "N": 14584.55,
+            "P": 9322.075
+          }
+        },
+        {
+          "name": "088 NT4",
+          "wells": {
+            "N": [
+              "C7",
+              "C8",
+              "C9"
+            ],
+            "P": [
+              "D7",
+              "D8",
+              "D9"
+            ]
+          },
+          "expected_means": {
+            "N": 15525.109,
+            "P": 9162.38
+          }
+        },
+        {
+          "name": "164 NT1",
+          "wells": {
+            "N": [
+              "E10",
+              "E11",
+              "E12"
+            ],
+            "P": [
+              "F10",
+              "F11",
+              "F12"
+            ]
+          },
+          "expected_means": {
+            "N": 12052.692,
+            "P": 4626.156
+          }
+        },
+        {
+          "name": "164 NT2",
+          "wells": {
+            "N": [
+              "G1",
+              "G2",
+              "G3"
+            ],
+            "P": [
+              "H1",
+              "H2",
+              "H3"
+            ]
+          },
+          "expected_means": {
+            "N": 14837.807,
+            "P": 4539.422
+          }
+        },
+        {
+          "name": "164 NT3",
+          "wells": {
+            "N": [
+              "G4",
+              "G5",
+              "G6"
+            ],
+            "P": [
+              "H4",
+              "H5",
+              "H6"
+            ]
+          },
+          "expected_means": {
+            "N": 12125.222,
+            "P": 3656.477
+          }
+        },
+        {
+          "name": "164 NT4",
+          "wells": {
+            "N": [
+              "G7",
+              "G8",
+              "G9"
+            ],
+            "P": [
+              "H7",
+              "H8",
+              "H9"
+            ]
+          },
+          "expected_means": {
+            "N": 14793.404,
+            "P": 8119.122
+          }
+        }
+      ],
+      "reference_wells": [
+        {
+          "well": "A10",
+          "group": "088 NT1",
+          "condition": "N",
+          "od600": 1.642,
+          "fluorescence": 21762.0,
+          "normalized_rounded": 13253.35
+        },
+        {
+          "well": "A11",
+          "group": "088 NT1",
+          "condition": "N",
+          "od600": 1.596,
+          "fluorescence": 19282.0,
+          "normalized_rounded": 12081.454
+        },
+        {
+          "well": "A12",
+          "group": "088 NT1",
+          "condition": "N",
+          "od600": 1.56,
+          "fluorescence": 18792.0,
+          "normalized_rounded": 12046.154
+        },
+        {
+          "well": "B10",
+          "group": "088 NT1",
+          "condition": "P",
+          "od600": 1.425,
+          "fluorescence": 10473.0,
+          "normalized_rounded": 7349.474
+        },
+        {
+          "well": "B11",
+          "group": "088 NT1",
+          "condition": "P",
+          "od600": 1.421,
+          "fluorescence": 10972.0,
+          "normalized_rounded": 7721.323
+        },
+        {
+          "well": "B12",
+          "group": "088 NT1",
+          "condition": "P",
+          "od600": 1.433,
+          "fluorescence": 11315.0,
+          "normalized_rounded": 7896.022
+        },
+        {
+          "well": "C1",
+          "group": "088 NT2",
+          "condition": "N",
+          "od600": 1.559,
+          "fluorescence": 26114.0,
+          "normalized_rounded": 16750.481
+        },
+        {
+          "well": "C2",
+          "group": "088 NT2",
+          "condition": "N",
+          "od600": 1.589,
+          "fluorescence": 24308.0,
+          "normalized_rounded": 15297.671
+        },
+        {
+          "well": "C3",
+          "group": "088 NT2",
+          "condition": "N",
+          "od600": 1.541,
+          "fluorescence": 18608.0,
+          "normalized_rounded": 12075.276
+        },
+        {
+          "well": "D1",
+          "group": "088 NT2",
+          "condition": "P",
+          "od600": 1.426,
+          "fluorescence": 13104.0,
+          "normalized_rounded": 9189.341
+        },
+        {
+          "well": "D2",
+          "group": "088 NT2",
+          "condition": "P",
+          "od600": 1.4,
+          "fluorescence": 13758.0,
+          "normalized_rounded": 9827.143
+        },
+        {
+          "well": "D3",
+          "group": "088 NT2",
+          "condition": "P",
+          "od600": 1.453,
+          "fluorescence": 2177.0,
+          "normalized_rounded": 1498.279
+        },
+        {
+          "well": "C4",
+          "group": "088 NT3",
+          "condition": "N",
+          "od600": 1.579,
+          "fluorescence": 23357.0,
+          "normalized_rounded": 14792.274
+        },
+        {
+          "well": "C5",
+          "group": "088 NT3",
+          "condition": "N",
+          "od600": 1.539,
+          "fluorescence": 21017.0,
+          "normalized_rounded": 13656.27
+        },
+        {
+          "well": "C6",
+          "group": "088 NT3",
+          "condition": "N",
+          "od600": 1.547,
+          "fluorescence": 23677.0,
+          "normalized_rounded": 15305.107
+        },
+        {
+          "well": "D4",
+          "group": "088 NT3",
+          "condition": "P",
+          "od600": 1.161,
+          "fluorescence": 11013.0,
+          "normalized_rounded": 9485.788
+        },
+        {
+          "well": "D5",
+          "group": "088 NT3",
+          "condition": "P",
+          "od600": 1.389,
+          "fluorescence": 12589.0,
+          "normalized_rounded": 9063.355
+        },
+        {
+          "well": "D6",
+          "group": "088 NT3",
+          "condition": "P",
+          "od600": 1.206,
+          "fluorescence": 11357.0,
+          "normalized_rounded": 9417.081
+        },
+        {
+          "well": "C7",
+          "group": "088 NT4",
+          "condition": "N",
+          "od600": 1.596,
+          "fluorescence": 26542.0,
+          "normalized_rounded": 16630.326
+        },
+        {
+          "well": "C8",
+          "group": "088 NT4",
+          "condition": "N",
+          "od600": 1.544,
+          "fluorescence": 22906.0,
+          "normalized_rounded": 14835.492
+        },
+        {
+          "well": "C9",
+          "group": "088 NT4",
+          "condition": "N",
+          "od600": 1.525,
+          "fluorescence": 23042.0,
+          "normalized_rounded": 15109.508
+        },
+        {
+          "well": "D7",
+          "group": "088 NT4",
+          "condition": "P",
+          "od600": 1.392,
+          "fluorescence": 12624.0,
+          "normalized_rounded": 9068.966
+        },
+        {
+          "well": "D8",
+          "group": "088 NT4",
+          "condition": "P",
+          "od600": 1.417,
+          "fluorescence": 12633.0,
+          "normalized_rounded": 8915.314
+        },
+        {
+          "well": "D9",
+          "group": "088 NT4",
+          "condition": "P",
+          "od600": 1.398,
+          "fluorescence": 13285.0,
+          "normalized_rounded": 9502.861
+        },
+        {
+          "well": "E10",
+          "group": "164 NT1",
+          "condition": "N",
+          "od600": 1.454,
+          "fluorescence": 15731.0,
+          "normalized_rounded": 10819.12
+        },
+        {
+          "well": "E11",
+          "group": "164 NT1",
+          "condition": "N",
+          "od600": 1.483,
+          "fluorescence": 18685.0,
+          "normalized_rounded": 12599.461
+        },
+        {
+          "well": "E12",
+          "group": "164 NT1",
+          "condition": "N",
+          "od600": 1.428,
+          "fluorescence": 18192.0,
+          "normalized_rounded": 12739.496
+        },
+        {
+          "well": "F10",
+          "group": "164 NT1",
+          "condition": "P",
+          "od600": 1.296,
+          "fluorescence": 4992.0,
+          "normalized_rounded": 3851.852
+        },
+        {
+          "well": "F11",
+          "group": "164 NT1",
+          "condition": "P",
+          "od600": 1.35,
+          "fluorescence": 6916.0,
+          "normalized_rounded": 5122.963
+        },
+        {
+          "well": "F12",
+          "group": "164 NT1",
+          "condition": "P",
+          "od600": 1.287,
+          "fluorescence": 6311.0,
+          "normalized_rounded": 4903.652
+        },
+        {
+          "well": "G1",
+          "group": "164 NT2",
+          "condition": "N",
+          "od600": 1.592,
+          "fluorescence": 25582.0,
+          "normalized_rounded": 16069.095
+        },
+        {
+          "well": "G2",
+          "group": "164 NT2",
+          "condition": "N",
+          "od600": 1.615,
+          "fluorescence": 24255.0,
+          "normalized_rounded": 15018.576
+        },
+        {
+          "well": "G3",
+          "group": "164 NT2",
+          "condition": "N",
+          "od600": 1.569,
+          "fluorescence": 21065.0,
+          "normalized_rounded": 13425.749
+        },
+        {
+          "well": "H1",
+          "group": "164 NT2",
+          "condition": "P",
+          "od600": 1.343,
+          "fluorescence": 6111.0,
+          "normalized_rounded": 4550.261
+        },
+        {
+          "well": "H2",
+          "group": "164 NT2",
+          "condition": "P",
+          "od600": 1.29,
+          "fluorescence": 5685.0,
+          "normalized_rounded": 4406.977
+        },
+        {
+          "well": "H3",
+          "group": "164 NT2",
+          "condition": "P",
+          "od600": 1.301,
+          "fluorescence": 6064.0,
+          "normalized_rounded": 4661.03
+        },
+        {
+          "well": "G4",
+          "group": "164 NT3",
+          "condition": "N",
+          "od600": 1.545,
+          "fluorescence": 20074.0,
+          "normalized_rounded": 12992.88
+        },
+        {
+          "well": "G5",
+          "group": "164 NT3",
+          "condition": "N",
+          "od600": 1.382,
+          "fluorescence": 15272.0,
+          "normalized_rounded": 11050.651
+        },
+        {
+          "well": "G6",
+          "group": "164 NT3",
+          "condition": "N",
+          "od600": 1.391,
+          "fluorescence": 17154.0,
+          "normalized_rounded": 12332.135
+        },
+        {
+          "well": "H4",
+          "group": "164 NT3",
+          "condition": "P",
+          "od600": 1.15,
+          "fluorescence": 4397.0,
+          "normalized_rounded": 3823.478
+        },
+        {
+          "well": "H5",
+          "group": "164 NT3",
+          "condition": "P",
+          "od600": 1.013,
+          "fluorescence": 3550.0,
+          "normalized_rounded": 3504.442
+        },
+        {
+          "well": "H6",
+          "group": "164 NT3",
+          "condition": "P",
+          "od600": 1.113,
+          "fluorescence": 4053.0,
+          "normalized_rounded": 3641.509
+        },
+        {
+          "well": "G7",
+          "group": "164 NT4",
+          "condition": "N",
+          "od600": 1.471,
+          "fluorescence": 20693.0,
+          "normalized_rounded": 14067.301
+        },
+        {
+          "well": "G8",
+          "group": "164 NT4",
+          "condition": "N",
+          "od600": 1.483,
+          "fluorescence": 21894.0,
+          "normalized_rounded": 14763.318
+        },
+        {
+          "well": "G9",
+          "group": "164 NT4",
+          "condition": "N",
+          "od600": 1.472,
+          "fluorescence": 22889.0,
+          "normalized_rounded": 15549.592
+        },
+        {
+          "well": "H7",
+          "group": "164 NT4",
+          "condition": "P",
+          "od600": 1.204,
+          "fluorescence": 9742.0,
+          "normalized_rounded": 8091.362
+        },
+        {
+          "well": "H8",
+          "group": "164 NT4",
+          "condition": "P",
+          "od600": 1.261,
+          "fluorescence": 10153.0,
+          "normalized_rounded": 8051.546
+        },
+        {
+          "well": "H9",
+          "group": "164 NT4",
+          "condition": "P",
+          "od600": 1.245,
+          "fluorescence": 10227.0,
+          "normalized_rounded": 8214.458
+        }
+      ]
+    }
+  ]
+}

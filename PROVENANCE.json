@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "scope": "Final TIGRi thesis: quantitative panels of Figures 3\u20137, Figures D1\u2013D3, Tables D1\u2013D2",
+  "sources": [
+    {
+      "source": "analysis/time_series_2026-11-07/analyze.py",
+      "sha256": "467b762f5ae127880beaff8ca36becd967421da610e9b27891924d76e5736d13"
+    },
+    {
+      "source": "analysis/time_series_2026-11-07/verify.py",
+      "sha256": "8a5a738d8a9e882b7c59cd59f319cf95552b51a4427a39d76bcce773012123ca"
+    },
+    {
+      "source": "outputs/revision_2026-11-13/plot_review_endpoints.py",
+      "sha256": "b6c1396c9dc268999d335501b4d552b7d4f730527a291f8ffea2a44e74d8b790"
+    },
+    {
+      "source": "outputs/tigri_only_2026-11-17/plot_boxb.py",
+      "sha256": "1f18437ca2c3019f956ded05e8329a4309aa1f80ad7f7a604a7f9f685d6da861"
+    },
+    {
+      "source": "outputs/abstract_alignment_2026-11-17/analyze_ngs15.py",
+      "sha256": "01cfdb21ee26b658dd5dfa48f518fe95abdaed38e048773715bb3049bc3dd3a8"
+    },
+    {
+      "source": "thesis/analysis_code/scripts/plot_timeseries.py",
+      "sha256": "93d491558ea8eb4d6d62ffc797e3843ec95e123ba83c8c7d58fb047087b56c78"
+    }
+  ],
+  "adaptations": [
+    "Six retained acquisitions; August uses only the eight reported NT groups",
+    "Structured well map contains only retained wells and numerical endpoint reference checks",
+    "Preserved per-well normalization, sample SD, ratio-of-means and same-effector NT correction",
+    "Removed activation outputs and unused one-well-omission analysis",
+    "Added final N-GS15 control table and current manuscript numbering"
+  ]
+}
